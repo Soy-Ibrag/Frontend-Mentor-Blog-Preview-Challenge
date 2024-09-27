@@ -18,7 +18,8 @@ body{
 }
 
 body p{
-    font-size: 15px;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 main{
@@ -89,6 +90,34 @@ h2{
     margin-bottom: 15px;
 }
 
-p{
-    line-height: 1.5;
+@media (max-width: 600px){
+    .container{
+        width: 325px;
+        height: 450px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        box-shadow: 7px 7px 0px 1px black;
+        border-radius: 15px;
+        margin-bottom: 20px;
+        border: 1px solid black;
+        padding: 25px;
+    }
+
+    .article-img{
+        width: 275px;
+        border-radius: 10px;
+        margin-bottom: 25px;
+    }
+
+    body p{
+        font-size: 14px;
+        line-height: 1.4;
+    }
+
+    h2{
+        margin-bottom: 15px;
+        font-size: 20px;
+    }
 }
